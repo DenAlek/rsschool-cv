@@ -1,0 +1,37 @@
+.header1 {
+    position: fixed;
+    top: 25px;
+}
+.img1 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: auto;
+    right: auto;
+    border-radius: 100%;
+    margin-left: auto;
+}
+img:hover{
+    transform: scaleX(-1);
+}
+.ordered_list {
+    max-width: 1024px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box div{
+    min-width: 200px;
+    max-width: 1024px;
+}
+#article1 {
+    text-align: left;
+    min-width: 200px;
+    max-width: 950px;
+}
+#footer1 {
+    position: fixed;
+    bottom: 10px;
+}
